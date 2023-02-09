@@ -25,8 +25,19 @@ justify-content: space-between;
 
 #page-container {
   position: relative;
-  min-height: 100vh;
+  max-height: 100vh;
 }
+#content-wrap {
+  padding-bottom: 15vh;    /* Footer height */
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 15vh;            /* Footer height */
+}
+
   h1 {
     font-family: Wolverins;
     color: rgb(14,17,19);
@@ -85,26 +96,14 @@ margin-left: 80px;
 
 .image {
 position: absolute;
-width: 700px;
+width: 30vw;
 left: 60vw;
 top: 0px;
 
 
   }
 
-#line {
-position: relative;
-height:50px;
-background-color: rgb(29,144,243);
-bottom: 20px;
-margin-top:0px;
-padding-top: 0px;
-margin-bottom: 0px;
-border: 0pc;
-display: grid;
-grid-template-columns: repeat(4,1fr);
-grid-template-rows: 50px;
-}
+
 
 #movedown {
 
@@ -134,6 +133,19 @@ color: rgb(14,17,19);
     background-color: black;
     z-index: 1000;
 }
+#line {
+  position: relative;
+  height:6vh;
+  background-color: rgb(29,144,243);
+  bottom: 20px;
+  margin-top:0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  border: 0pc;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 50px;
+  }
 
 .menu {
 margin-top: 7px;
@@ -147,17 +159,18 @@ margin-top: 0px;
 padding-top:0px;
 display: grid;
 position: relative;
-height:200px;
+height:20vh;
 background-color: rgb(14,17,19);
-grid-template-columns: 195px 175px 430px 175px 405px 175px 400px 175px;
+grid-template-columns: repeat(4,1fr)
 grid-template-rows: 200px;
 z-index: 500;
+
 
 
 }
 
 .logos {
-width: 200px;
+width: 6vw;
 
 }
 #b1 {
