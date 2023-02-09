@@ -13,6 +13,7 @@ html{
 
 .parent {
 display: flex;
+justify-content: space-between;
 
 
 }
@@ -40,8 +41,9 @@ display: flex;
    #xmen{
     font-family: Wolverins;
     color: rgb(14,17,19);
-    font-size: 125px;
-    margin-left: 30vw;
+    font-size: 100px;
+
+    ;
 
 
   }
@@ -76,12 +78,16 @@ margin-left: 80px;
 
 }
   #claw2 {
-
-
+  width: 200px;
+  margin-right: 80px;
+  justify-self: flex-end;
   }
 
 .image {
-
+position: absolute;
+width: 700px;
+left: 60vw;
+top: 0px;
 
 
   }
