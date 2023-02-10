@@ -7,47 +7,11 @@
     font-family: Wolverins;
     src: url(./fonts/Wolverins-2Vno.ttf);
   }
-html{
-    background-color: rgb(255,254,3);
-}
-
-.parent {
-display: flex;
-justify-content: space-between;
-
-
-}
 
 
 
 
 
-
-#page-container {
-  /* position: relative;
-  max-height: 100vh; */
-  display: grid;
-  grid-template-columns: 100vw;
-
-
-}
-#content-wrap {
-  padding-bottom: 16vh;    /* Footer height */
-}
-
-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100vw;
-  height: 16vh;            /* Footer height */
-  color: rgb(249,65,21);
-  font-family: Wolverins;
-  font-size: 3.9vh;
-  padding-bottom:0px;
-  margin-bottom: 0px;
-  background-color: black;
-
-}
 
   h1 {
     font-family: Wolverins;
@@ -66,7 +30,7 @@ footer {
     color: rgb(14,17,19);
     font-size: 10vh;
 
-    ;
+
 
 
   }
@@ -87,21 +51,20 @@ color: rgb(14,17,19);
 
  body {
 
- margin: 0px 42px
- padding: 20px;
+ margin: 0px 0px;
+ background-color: rgb(255,254,3)
  }
 
  p {
 font-family: comics;
 font-size: 15px;
-margin-left: 42px;
-margin-right:966px;
+margin-left: 0px;
+margin-right:0px;
 margin-top: 0px;
  }
 #claw1 {
 width: 200px;
 margin-left: 80px;
-
 }
   #claw2 {
   width: 200px;
@@ -112,11 +75,8 @@ margin-left: 80px;
 .image {
 position: absolute;
 width: 30vw;
-left: 60vw;
 top: 0px;
-
-
-  }
+}
 
 
 
@@ -126,7 +86,7 @@ padding: 0pc;
 margin-bottom: 0;
 }
 
-.imaginary{
+.imaginary{  /*this is just show color scheme */
 color: rgb(29,144,243);
 
 color: rgb(255,254,3);
@@ -139,22 +99,22 @@ color: rgb(252,209,169);
 color: rgb(14,17,19);
 }
 
-#menus {
 
-    z-index: 1000;
-}
+
 #line {
   position: relative;
   height:6vh;
   background-color: rgb(29,144,243);
-  bottom: 20px;
+  width: 100vw;
   margin-top:0px;
   padding-top: 0px;
   margin-bottom: 0px;
-  border: 0pc;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: 50px;
+  color: rgb(249,65,21);
+  font-family: Wolverins;
+  font-size: 3.9vh;
   }
 
 .menu {
@@ -166,14 +126,15 @@ justify-content: center;
 
 .black {
 margin-top: 0px;
-padding-top:0px;
+padding:4px;
 display: grid;
 position: relative;
-height:20vh;
+height:vh;
 background-color: rgb(14,17,19);
-grid-template-columns: repeat(4,1fr)
-grid-template-rows: 200px;
+grid-template-columns: repeat(4,1fr);
 z-index: 500;
+justify-content: center;
+width: 100vw;
 
 
 
@@ -184,20 +145,24 @@ width: 6vw;
 
 }
 #b1 {
-grid-column: 2/3;
+grid-column: 1/2;
+justify-self: center;
 
 }
 
 #b2 {
-grid-column: 4/5;
+grid-column: 2/3;
+justify-self: center;
 }
 
 #b3 {
-grid-column: 6/7;
+grid-column: 3/4;
+justify-self: center;
 
 }
 
 #b4 {
-grid-column: 8/9
+grid-column: 4/5;
+justify-self: center;
 
 }
