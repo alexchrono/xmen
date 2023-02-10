@@ -1,0 +1,65 @@
+@font-face {
+    font-family: comics;
+    src: url(./fonts/AvengeanceMightiestAvenger-837g.ttf);
+}
+@font-face {
+    font-family: Wolverins;
+    src: url(./fonts/Wolverins-2Vno.ttf);
+}
+    @font-face {
+        font-family: avengers;
+        src: url(./fonts/The\ Avengers.ttf);
+      }
+
+
+  h1{
+    font-family: Wolverins;
+    color: rgb(249,65,21);
+    font-size: 10vh;
+  }
+  body {
+
+    margin: 0px 40px;
+    background-color: rgb(29,144,243);
+    color: rgb(249,65,21);
+  }
+
+  .imaginary{  /*this is just show color scheme */
+    color: rgb(29,144,243);
+
+    color: rgb(255,254,3);
+
+
+    color: rgb(249,65,21);
+
+    color: rgb(252,209,169);
+
+    color: rgb(14,17,19);
+    }
+
+    .blurry {
+    background-color: rgba(0, 0, 0, 0.219);
+
+    backdrop-filter: blur(5px);
+    font-family: comics;
+    font-size: 40px;
+    width:1500px;
+    height:400px;
+    margin-top:30px;
+    border-radius: 20px;
+
+    }
+
+    .biopic {
+
+    width: 290px;
+    height:290px;
+    }
+
+    .biopic:hover {
+    border: 5px solid red;
+    }
+    .container {
+    display: flex;
+    justify-content: space-between;
+    }
