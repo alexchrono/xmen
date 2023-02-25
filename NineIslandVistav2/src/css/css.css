@@ -1,0 +1,317 @@
+/* the following should be sitewide */
+:root {
+
+   height: 100vh;  /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vz, 1vh) * 100);
+  }
+
+
+
+@font-face {
+  font-family: IslandFont;
+  src:url(../fonts/Geraldo-Island.ttf.woff)
+  }
+
+@font-face {
+font-family: chill;
+src:url(../fonts/Rosemary.ttf.woff)
+
+
+}
+
+@font-face {
+font-family: textz;
+src:url(../fonts/NexaBold.ttf.woff)
+}
+
+.box {
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* backdrop-filter:blur(60px); */
+  /* background-color: rgba(1, 1, 1, 0.279); */
+
+}
+.box .seashell {
+width: 5vw
+
+
+}
+/* p {
+font-family: textz;
+font-size: 26px;
+font-weight: bold;
+color: white;
+
+} */
+
+.containerHtn {
+  display: flex;
+  visibility: visible;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+
+a {
+  color: hwb(328 11% 42%);
+  text-decoration:  none;
+  }
+
+
+
+
+.inlineheader {
+display:inline-block;
+}
+
+
+h3 {    /* GOES TO ALL MENU WORDS */
+  font-family: chill;
+  color:hwb(328 11% 42%);
+  text-align: center;
+  backdrop-filter: blur(40px);
+  background-color: rgba(1, 1, 1, 0.69);
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 4vh
+  }
+
+
+.seashellz {
+  width: 40%;
+  max-width: 80%;
+  justify-self: center;
+  align-self: center;
+  }
+
+
+  .inheritz {      /*this gives a dark background color lets make it universal*/
+    background-color: rgb(56, 56, 56, .80);
+    }
+
+    h4 {                            /*  good font for explanations.  Also in locations.*/
+      font-family: chill;
+    color:hwb(328 11% 42%);
+    display: inline-block;
+    font-size: 2.5vw;
+
+
+    }
+/* ul li ul li {
+  list-style: square;
+  }
+  ul li ul li::marker {
+    color: red;
+  } */
+
+/* ul, ol {
+  font-family: textz;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+}
+
+
+ol, ul {
+
+  font-size: 1.5em;
+  padding-left: 1rem;
+}
+
+li {
+list-style: none;
+background: url("./pictures/starfishnobg2.png")no-repeat;
+row-gap: 20px;
+padding-left:20px;
+margin-top: 20px;
+
+}
+
+}
+ul
+.wrappertext {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+*/
+/* .beh {
+  display: inline-block;
+align-self: right;
+} */
+/* **********************************************The below is only for index ONLY */
+  .maintitle {
+display: block;
+font-family: IslandFont;
+font-size: 10vw;
+color: #156da1;
+padding-right: 12px;
+  }
+
+  #phrase {
+    font-family: chill;
+    font-size:5vw;
+    font-size: max(5vw);
+    color: #156da1;
+    padding-right: 12px;
+
+    }
+
+ h1 {                      /*this makes up every heading other than main*/
+  display: inline-block;
+  font-family: IslandFont;
+  font-size: 6vw;
+  color: hwb(328 11% 42%);
+  padding-right: 12px;
+  text-align: end;
+  width:100%
+
+
+    }
+/* h2 {
+  display: block;
+  font-family: IslandFont;
+  font-size: 8vw;
+  color:hwb(328 11% 42%);
+  padding-right: 12px;
+  text-align: right;
+
+} */
+
+
+
+/* .alignright {
+text-align: right;
+} */
+
+
+
+
+.fadeinz2 {
+    animation: fadein 5s;
+    -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 12px;
+
+}
+
+
+.fadeinz {
+    animation: fadein 3s;
+    -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+/* #blurz {
+height: 50px;
+  width: 160px;
+margin-top: 87px;
+}
+#blurz2 {
+ width:10vw;
+max-width: 160px;
+font-size:1vw;
+justify-self: left;
+align-self: center;
+
+} */
+/* .mary {
+justify-content: space-between;
+} */
+/* #blurz3 {
+width:160px;
+margin-right: 0px;
+margin-top:0px;
+
+} */
+
+/* .body {
+flex-wrap:nowrap;
+} */
+/* .bgtext {
+  background-color: rgb(173, 172, 172);
+  ;
+  font-family: chill;
+  color:hwb(328 11% 42%);
+  font-size: 25px;
+  font-weight: bold;
+  align-self:
+} */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+.hidden2{
+height:2vh;
+width: 50px;
+display: block;
+visibility: hidden;
+padding-right:12px;
+padding-left:12px;
+}
+/* .bigb {
+justify-self: center;
+align-self: center;
+} */
+
+
+
+
+
+/* ENDING INDEX ONLY */
+
+/* THIS SECTION IS FOR AMENITIES ONLY */
+    table {
+        background-color: white;
+        font-size: 2rem;
+        overflow-y:scroll;
+          }
+          .tablesec {
+            font-size:1rem;
+            color: #6c757d;
+            font-family: arial;
+            }
+
+/* ENDING AMENITIES */
+
+/* THIS SECTION IS FOR LOCATION ONLY */

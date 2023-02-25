@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./js/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Availability</title>
+  <link href="./css/availability.css" rel="stylesheet">
+
+
+
+
+  <script>
+
+    function show5(xena, gabby, joxer) {
+        document.getElementById(xena).style.visibility = "visible";
+        document.getElementById(xena).style.position = 'relative'
+        document.getElementById(gabby).style.display = "none";
+        document.getElementById(joxer).style.display = "none";
+        document.getElementById('times').style.display='none'
+          }
+          </script>
+          <script>
+          function show2 (xena,gabby,joxer) {
+        document.getElementById(xena).style.display = "flex";
+        document.getElementById('times').style.display='inline'
+        document.getElementById(gabby).style.visibility = "hidden";
+        document.getElementById(gabby).style.position = "absolute"
+        document.getElementById(joxer).style.display = "none";}
+        </script>
+
+        <script>
+        function show4(xena,gabby,joxer) {
+        document.getElementById(xena).style.display = "block";
+        document.getElementById(gabby).style.visibility = "hidden";
+        document.getElementById(gabby).style.position = "absolute"
+        document.getElementById(joxer).style.display = "none";
+        document.getElementById('times').style.display='none';}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+    //   else if ((xena === 'deskContentO2') &&(gabby === 'deskContentO5'))
+    //     document.getElementById(xena).style.visibility = "visible";
+    //     document.getElementById(xena).style.display = 'flex'
+    //       document.getElementById(gabby).style.visibiity = "hidden";
+    //       document.getElementById(gabby).style.position = 'absolute';
+    //       document.getElementById(joxer).style.display = "none";
+    //       document.getElementById(joxer).style.display = "none";
+    //     }
+    //     else if ((xena === 'deskContentO2') &&(joxer === 'deskContentO5'))
+    //       document.getElementById(xena).style.visibility = "visible";
+    //       document.getElementById(xena).style.display = 'flex'
+    //       document.getElementById(gabby).style.display = "none";
+    //       document.getElementById(gabby).style.visibility = "hidden";
+    //       document.getElementById(joxer).style.visibiity = "hidden";
+    //       document.getElementById(joxer).style.position = 'absolute'
+    //     }
+    //   }
+    //   else if (xena === 'deskContentO4') {
+    //     document.getElementById(xena).style.visibility = "visible";
+    //     document.getElementById(xena).style.display = 'block'
+
+    //     if (gabby === 'deskContentO5') {
+    //       document.getElementById(gabby).style.visibiity = "hidden";
+    //       document.getElementById(gabby).style.position = "absolute";
+    //       document.getElementById(joxer).style.display = "none";
+    //       document.getElementById(joxer).style.display = "none";
+    //     }
+    //     else {
+
+    //       document.getElementById(joxer).style.visibiity = "hidden";
+    //       document.getElementById(joxer).style.position = 'absolute';
+    //       document.getElementById(gabby).style.display = "none";
+    //       document.getElementById(gabby).style.display = "none";
+
+    //     }
+
+    //   }
+    // } -->
+
+
+
+
+
+  </script>
+  <style>
+    @media screen and (min-width:0px) and (max-width:576px) {
+      .dofast {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .dofast2 {
+        display: none;
+        visibility: hidden;
+      }
+
+      h6 {
+        font-size: 10vw;
+
+      }
+
+      /* #deskContentO5 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 160%; /* Change this till it fits the dimensions of your video
+  position: absolute;
+  visibility: hidden;
+  z-index: ;
+  display:flexbox;
+  justify-content: center;
+  overflow: auto;
+
+
+}
+#deskContentO5 #apartmentIframeAll {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  overflow:auto;
+
+  top: 0;
+  left: 0;
+} */
+    }
+
+
+
+
+
+
+
+
+    @media screen and (min-width:577px) and (max-width:767px) {
+      .dofast {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .d-grid {
+        display: none;
+        visibility: hidden;
+        row-gap: 40px;
+      }
+
+      h6 {
+        font-size: 10vw;
+
+      }
+
+
+      /* #apartmentIframeAll {
+    height: 100%;
+
+    overflow: scroll;
+    padding-bottom:0px;
+
+  } */
+
+
+
+
+      .deskContent {
+        display: none;
+      }
+
+      .phoneContent {
+        display: block;
+      }
+
+      .deskContent {
+
+        flex-grow: 1;
+      }
+    }
+
+    @media screen and (min-width:768px) and (max-width:991px) {
+      .dofast {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .d-grid {
+        display: none;
+        visibility: hidden;
+        row-gap: 40px;
+      }
+
+      h6 {
+        font-size: 10vw;
+
+
+
+      }
+    }
+
+    @media screen and (min-width:992px) and (max-width:1199px) {
+
+      .d-grid {
+        display: grid;
+        visibility: visible;
+        row-gap: 60px;
+        justify-content: space-between;
+        align-content: center;
+      }
+
+      .dofast {
+        display: none;
+        visibility: hidden;
+      }
+
+
+    }
+
+    @media screen and (min-width:1200px) and (max-width:3000px) {
+      .dofast {
+        display: none;
+        visibility: hidden;
+      }
+
+      .d-grid {
+        display: grid;
+        visibility: visible;
+        row-gap: 60px;
+        justify-content: space-between;
+        align-content: center;
+      }
+
+      /* #deskContentO5 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 87vh;  Change this till it fits the dimensions of your video
+  position: absolute;
+  visibility: hidden;
+  z-index: ;
+  display:flexbox;
+  justify-content: center;
+  overflow: auto;
+
+
+} */
+
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid  min-vh-100">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="align">
+          <h6>Bookings and Availability</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="dofast"><button type="button" class=" btn btn-secondary btn-lg"
+            onclick="show2('deskContentO2','deskContentO5','deskContentO4')">Check
+            dates</button> <button type="button" class=" btn btn-secondary btn-lg"
+            onclick="show4('deskContentO4','deskContentO5','deskContentO2')">TOS & PP</button><button
+            type="button" class=" btn btn-secondary btn-lg"
+            onclick="show5('deskContentO5','deskContentO2','deskContentO4')"> Book now </button>
+          <a href="index.html" class="btn btn-secondary btn-lg" role="button">Back</a>
+
+          <!-- <a href="./index.html"><button type="button" class="btn btn-secondary btn-lg buttoon"onclick="myFunctionz('deskContentO4')"> Back</button></a> -->
+
+        </div>
+      </div>
+    </div>
+    <!-- This is the flexgrid/small screen layout -->
+    <div class="row">
+      <div class="col-0 col-lg-2"></div>
+      <div class="col-12 col-lg-8 d-flex flex-column ">
+        <div id="deskContentO2" class="deskContentO2">
+
+          <center>
+            <div id="smoobuApartment1591507en" class="calendarWidget ">
+              <div class="calendarContent"
+                data-load-calendar-url="https://login.smoobu.com/en/cockpit/widget/single-calendar/1591507"
+                data-verification="82060e38c9d1688c042c298d67a9ad40306cb4b433c186a115af685bb44786cd"
+                data-baseUrl="https://login.smoobu.com" data-disable-css="false"></div>
+              <script type="text/javascript" src="https://login.smoobu.com/js/Apartment/CalendarWidget.js"></script>
+            </div>
+          </center>
+        </div>
+        <p>
+          <center>
+            <h3 id="times">Times in pink booked</h3>
+          </center>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="deskContentO4">
+          <iframe src="./pictures/TOSandPP.pdf#view=fitH" class="deskContentO4p" id="deskContentO4p" height="1000"
+            width="100%"></iframe>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="deskContentO5" class="deskContentO5 d-flex justify-self-center">
+
+          <div id="apartmentIframeAll">
+            <script type="text/javascript" src="https://login.smoobu.com/js/Settings/BookingToolIframe.js"></script>
+            <script>BookingToolIframe.initialize({ "url": "https://login.smoobu.com/en/booking-tool/iframe/562846", "baseUrl": "https://login.smoobu.com", "target": "#apartmentIframeAll" })</script>
+          </div>
+
+
+          ->
+        </div>
+
+
+
+
+      </div>
+      <!-- This is the big layout for when buttons all on right side -->
+      <div class="col-0 col-lg-2">
+        <div class="d-grid  mx-auto dofast2"><button type="button" class=" btn btn-secondary btn-lg"
+            onclick="show2('deskContentO2','deskContentO5','deskContentO4')">Check
+            dates</button> <button type="button" class=" btn btn-secondary btn-lg"
+            onclick="show4('deskContentO4','deskContentO5','deskContentO2')">TOS & PP</button><button
+            type="button" class=" btn btn-secondary btn-lg"
+            onclick="show5('deskContentO5','deskContentO2','deskContentO4')"> Book now </button>
+          <a href="index.html" class="btn btn-secondary btn-lg" role="button">Home</a>
+          <a href="location.html" class="btn btn-secondary btn-lg" role="button">Location</a>
+          <a href="amenities.html" class="btn btn-secondary btn-lg" role="button">Amenities</a>
+          <a href="unit.html" class="btn btn-secondary btn-lg" role="button">Unit</a>
+
+
+          <!-- <a href="./index.html"><button type="button" class="btn btn-secondary btn-lg buttoon"onclick="myFunctionz('deskContentO4')"> Back</button></a> -->
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class='col-12'></div>
+    </div>
+  </div>
+  <script src="./js/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="../popper.min.js"></script>
+</body>
+
+</html>

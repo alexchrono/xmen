@@ -1,0 +1,54 @@
+
+
+    body {
+        background: url("../pictures/peakpx.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+      }
+
+.carousel-item {
+
+height:800px;
+background: #777;
+color: white;
+position: relative;
+}
+
+.carousel-inner > .item > img {
+width: 100%;
+
+}
+
+#carouselExampleCaptions {
+
+width: 100%;
+
+}
+
+h5 {
+    font-family: chill;
+    color:hwb(328 11% 42%);
+    text-align: center;
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+    .rotate {
+    font-size: 30px;
+    display:none;
+    }
+
+    h3 {
+        font-family: chill;
+        color:hwb(328 11% 42%);
+        text-align: center;
+        backdrop-filter: blur(40px);
+        border-radius: 10px;
+        display: inline-block;
+        font-size: 2.5vw
+        }

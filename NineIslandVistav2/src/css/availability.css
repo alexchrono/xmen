@@ -1,0 +1,167 @@
+body {
+  background: url("../pictures/virginislandsbackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+
+
+  @font-face {
+    font-family: IslandFont;
+    src:url(../fonts/Geraldo-Island.ttf.woff)
+  }
+
+@font-face {
+font-family: chill;
+src:url(../fonts/Rosemary.ttf.woff)
+}
+
+.deskContentO2 {
+display:none;
+flex-direction: column;
+align-content: stretch;
+align-content: stretch;
+flex-grow:3;
+}
+
+
+
+#deskContentO4 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 86vh; /* Change this till it fits the dimensions of your video*/
+  position: relative;
+  display:none;
+
+  justify-content: center;
+  overflow: auto;
+}
+
+#deskContentO4 #deskContentO4p {
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+
+  top: 0;
+  left: 0;
+  overflow: scroll;
+
+}
+#times {
+display:none;
+background: black;
+}
+container-fluid {
+overflow: none;
+}
+.align {
+text-align: right;
+}
+html {
+
+overflow: hidden;
+}
+#deskContentO5 {
+  width: 100%;
+  max-width: 1000px; /* take this out if want centered*/
+  height: 0;
+  padding-bottom: 86.5vh;
+  position: absolute;
+  visibility: hidden;
+  display:flex;
+  justify-content: center;
+  overflow: auto;
+  justify-self: center;
+  align-self: center;
+
+
+
+}
+#deskContentO5 #apartmentIframeAll {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display:flexbox;
+  justify-self: center;
+
+  overflow:auto;
+
+  top: 0;
+  left: 0;
+}
+h6 {
+  display: inline;
+  font-family: IslandFont;
+  font-size: 6em;
+  color: hwb(328 11% 42%);
+  padding-right: 12px;
+  text-align: end;
+  height:13vh;
+  margin-bottom: 0px;
+  text-align: right;
+  word-wrap:none;
+
+
+    }
+    h3 {
+      font-family: chill;
+      color:hwb(328 11% 42%);
+      text-align: center;
+      backdrop-filter: blur(40px);
+      border-radius: 10px;
+      display: inline-block;
+      }
+
+
+
+  deskContentO3 {
+  margin-top: 20px;
+  backdrop-filter: blur(60px)
+  }
+
+  .responsive-cal {
+    display: inline;
+
+  }
+
+
+
+
+
+.calendarWidget {
+justify-self: center;
+flex-grow:2;
+
+}
+
+
+  .btn {
+
+  }
+
+
+
+.move {
+justify-self: center;
+}
+
+.wider {
+justify-content: center;
+flex-grow: 0
+}
+
+.buttoon {
+background-color: gray;
+color: white;
+border-radius: 5px;
+border: rgb(62, 62, 62);
+height: 47px;
+font-size: 20px;
+width:229px;
+}
